@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Press+Start+2P&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    outline: none;
     box-sizing: border-box;
-    font-family: monospace;
+    
+    outline: none;
+    font-family: "Poppins", sans-serif;
 }
