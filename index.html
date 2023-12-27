@@ -10,11 +10,39 @@
 </head>
 <body>
     <div class="container">
-        <h1>PIANO</h1>
-        
-        <p>Letras</p>
-        <p>Teclas</p>
-        <p>Afazeres</p>
+        <header>
+            <h2>PIANO VIRTUAL</h2>
+            <div class="column volume-slider">
+                <span>
+                    Volume
+                </span> <input type="range" name="#" id="#">
+            </div>
+            <div class="column keys-check">
+                <span>
+                    Teclas
+                </span> <input type="checkbox" checked name="##" id="##">
+            </div>
+        </header>
+        <!-- atalho para criar lista e suas classes: ul.piano-keys>(li.key)*16 -->
+        <ul class="piano-keys">
+            <li class="key white"><span>a</span></li>
+            <li class="key black"><span>w</span></li>
+            <li class="key white"><span>s</span></li>
+            <li class="key black"><span>e</span></li>
+            <li class="key white"><span>d</span></li>
+            <li class="key black"><span>f</span></li>
+            <li class="key white"><span>t</span></li>
+            <li class="key black"><span>g</span></li>
+            <li class="key white"><span>y</span></li>
+            <li class="key black"><span>h</span></li>
+            <li class="key white"><span>u</span></li>
+            <li class="key black"><span>j</span></li>
+            <li class="key white"><span>k</span></li>
+            <li class="key black"><span>o</span></li>
+            <li class="key white"><span>l</span></li>
+            <li class="key black"><span>p</span></li>
+            <li class="key white"><span>ç</span></li>
+        </ul>
     </div>
     
     <script src="./src/scripts/engine.js"></script>
